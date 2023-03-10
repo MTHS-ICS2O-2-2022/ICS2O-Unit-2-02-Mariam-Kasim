@@ -19,8 +19,8 @@ func main() {
 	fmt.Println()
 
 	// process
-	area :=5*3
-	perimeter :=(5+3)*2
+	area := 5 * 3
+	perimeter := (5 + 3) * 2
 
 	// output
 	fmt.Println("Area is", area, "cm²")
