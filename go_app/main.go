@@ -1,14 +1,31 @@
 // Created by: Mariam Kasim
 // Created on: March 2023
 //
-// This program does Area and Perimeter
+// This program displays area amd perimeter of a rectangle
 
 package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
-	// This function does basic math
+	// This function calculates the area and perimeter of a rectangle
+	// with dimensions 5cm x 3cm
+
+	// input
+	fmt.Println("If a rectangle has the dimensions")
+	fmt.Println("5cm x 3cm")
+	fmt.Println()
+
+	// process
+	area :=5*3
+	perimeter :=(5+3)*2
+
+	// output
+	fmt.Println("Area is", area, "cm²")
+
+	fmt.Println("Perimeter is", perimeter, "cm")
+
+	fmt.Println("\nDone")
+}
