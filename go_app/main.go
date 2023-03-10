@@ -12,8 +12,3 @@ import (
 
 func main() {
 	// This function does basic math
-	fmt.Println("10 + 5 + 10 + 5 = ", (10 + 5 + 10 + 5))
-	fmt.Println("5 * 10 = ", (5 * 10))
-
-  fmt.Println("\nDone.")
-}
